@@ -18,9 +18,9 @@ As magical as Hugo is, I couldn't get the github deployment to work cleanly no m
 
 All google-fu points to git v2.25.0.windows.1 and hugo extended v0.63.2 not being happy with each other.  Luckily I have a CentOS vm that I've been using for my RHCSA labs and deploying my hugo blog to github ran clean with no errors.  I didn't really want to retype some of the posts that I had in draft and there doesn't appear to be native clipboard support in Hyper-V.
 
-puTTy and friends to the rescue!  Put your reading glasses on and have a gander (here)[https://www.putty.org].  If you're on Windows and install the full package, two of the hidden treasures in the puTTy box are pscp and psftp.  They do have some slight differences in syntax and I've read in some places that only psftp supports SSLv2 but after running some Wireshark and tcpdump captures it looks like both of them do.  I prefer psftp but there are use cases for both.  With either utility, I'll assume that you're already added root path of the binaries to your %PATH% environment variable,  otherwise just navigate to them.  If in doubt, echo %PATH%.
+puTTy and friends to the rescue!  Put your reading glasses on and have a gander [here](https://www.putty.org).  If you're on Windows and install the full package, two of the hidden treasures in the puTTy box are pscp and psftp.  They do have some slight differences in syntax and I've read in some places that only psftp supports SSLv2 but after running some Wireshark and tcpdump captures it looks like both of them do.  I prefer psftp but there are use cases for both.  With either utility, I'll assume that you're already added root path of the binaries to your %PATH% environment variable,  otherwise just navigate to them.  If in doubt, echo %PATH%.
 
-This is a very, very small and scaled down list of the commands available for both, for a comprehensive list check out (this cool guide)[https://ssh.com/ssh/putty/putty-manual/0.68/index.html] at ssh.com.  Props to the team that put together the documentation.
+This is a very, very small and scaled down list of the commands available for both, for a comprehensive list check out [this cool guide](https://ssh.com/ssh/putty/putty-manual/0.68/index.html) at ssh.com.  Props to the team that put together the documentation.
 
 ---
 # PSFTP
@@ -73,3 +73,24 @@ quit or exit
 
 # PSCP
 
+PSCP doesn't offer as much flare but in the end it can git'r done.  If in doubt use psftp.  By default pscp will only copy files so use the -r flag for recursive operations.
+
+* Copy a single file from local to remote
+```
+pscp \path\to\local\file user@remote:/path/to/remote/dir
+```
+
+* Copy multiple files from local to remote
+```
+pscp \path\to\local\files\*.extension user@remote:/path/to/remote/dir
+```
+
+* Copy a single file from remote to local
+```
+pscp user@remote:/path/to/remote/dir/file path\to\local\dir
+```
+
+* List remote files
+```
+pscp -ls user@remote:/dir
+```
