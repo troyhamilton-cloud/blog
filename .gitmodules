@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/troyhamilton-cloud/troyhamilton-cloud.github.io.git
+	branch = master
