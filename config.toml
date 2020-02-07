@@ -126,3 +126,7 @@ disableHugoGeneratorInject = false
     identifier = "resume"
     name       = "resume"
     url        = "resume/"
+      [[menu.main]]
+    identifier = "tags"
+    name       = "tags"
+    url        = "tags/"

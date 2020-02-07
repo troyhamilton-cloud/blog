@@ -1,10 +1,14 @@
-+++
-title = "A world of hellos"
-date = "2020-01-01"
-aliases = ["intro"]
-[ author ]
-  name = "Troy Hamilton"
-+++
+---
+title: "A world of hellos"
+date: 2020-01-01T01:54:43-05:00
+draft: false
+toc: false
+images:
+categories: 
+  - blog
+tags:
+  - hello
+---
 
 ### Step 1. Introduce yourself
 
