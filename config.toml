@@ -1,4 +1,4 @@
-baseURL = "https://troyhamilton-cloud.github.io"
+baseURL = "https://troyhamilton.cloud"
 title   = "Troy Hamilton"
 
 DefaultContentLanguage = "en"
@@ -89,7 +89,7 @@ disableHugoGeneratorInject = false
     theme = "#252627"
 
   [params.logo]
-    logoText     = "troyhamilton.cloud"
+    logoText     = "TROYHAMILTON.CLOUD"
     logoHomeLink = "/"
     # Set to a valid CSS color to change the cursor in the logo.
     # logoColor    = "#67a2c9"
@@ -116,17 +116,17 @@ disableHugoGeneratorInject = false
 [menu]
   [[menu.main]]
     identifier = "blog"
-    name       = "blog"
+    name       = "_BLOG"
     url        = "posts/"
   [[menu.main]]
     identifier = "connect"
-    name       = "connect"
+    name       = "_CONNECT"
     url        = "connect/"
   [[menu.main]]
     identifier = "resume"
-    name       = "resume"
+    name       = "_RESUME"
     url        = "resume/"
       [[menu.main]]
     identifier = "tags"
-    name       = "tags"
+    name       = "_TAGS"
     url        = "tags/"
