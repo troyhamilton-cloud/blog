@@ -1,6 +1,6 @@
 ---
 title: "All the hugs for Hugo"
-date: 2020-01-03T13:52:23-05:00
+date: 2020-01-18T13:52:23-05:00
 draft: false
 toc: false
 images:

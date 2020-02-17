@@ -1,6 +1,6 @@
 ---
 title: "When in doubt, check your routes"
-date: 2020-01-04T07:54:43-05:00
+date: 2020-02-01T07:54:43-05:00
 draft: false
 toc: false
 images:

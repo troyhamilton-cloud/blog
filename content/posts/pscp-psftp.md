@@ -1,6 +1,6 @@
 ---
 title: "pscp and psftp are your friends"
-date: 2020-01-04T07:54:43-05:00
+date: 2020-01-25T07:54:43-05:00
 draft: false
 toc: false
 images:

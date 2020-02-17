@@ -1,6 +1,6 @@
 ---
 title: "Fun with AWS EC2 and puTTy"
-date: 2020-01-02T13:52:16-05:00
+date: 2020-01-11T13:52:16-05:00
 draft: false
 toc: false
 images:
