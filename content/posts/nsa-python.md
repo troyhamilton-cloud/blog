@@ -76,4 +76,29 @@ Followed up with other fuctions that only work with number and string types:
 
 # Lesson02
 
-Coming soon!
+Here come the variables!  Very useful stuff here like:
+- Finding current variables in use with `dir()`
+- Type checking with `isinstance()`
+- Conversions like `a = "3.14" b = float(a) type (b)`
+- A brief example for an array `l = ["one", "two", "three", "four"]`
+
+Where lesson02 shines is talking about making your own functions.
+
+```
+def first_func(x):
+      return x*2
+
+first_func(10)
+first_func('hello')
+```
+
+![python idle](/images/python-idle.png)
+
+Gotta love a little bit of enthusiasm here from the NSA:
+
+> Wow... Python REALLY does not care about types.  Here is the simplest function that you can write in Python (no imput, no output, and mot much else!)
+
+```
+def simple():
+      pass
+```  
