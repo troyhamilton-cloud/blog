@@ -38,7 +38,7 @@ As with most Python tutorials, Week 1 begins with an introduction which calls fo
 
 ---
 
-# Lesson01
+# Lesson01 - Intro
 
 So what's covered in Lesson 01?  It starts off with 'Basic Basics: Data and Operations' and explaining basic data types such as integers, floats, complexes, strings, and booleans.  We perform data operations against data types with operators, functions, and methods.
 
@@ -74,13 +74,13 @@ Followed up with other fuctions that only work with number and string types:
 
 ---
 
-# Lesson02
+# Lesson02 - Variables and Functions
 
 Here come the variables!  Very useful stuff here like:
 - Finding current variables in use with `dir()`
 - Type checking with `isinstance()`
 - Conversions like `a = "3.14" b = float(a) type (b)`
-- A brief example for an array `l = ["one", "two", "three", "four"]`
+- A brief example for an array but apparently they're called containers in Python `l = ["one", "two", "three", "four"]`
 
 Where lesson02 shines is talking about making your own functions.
 
@@ -102,3 +102,74 @@ Gotta love a little bit of enthusiasm here from the NSA:
 def simple():
       pass
 ```  
+
+---
+
+# Lesson03 - Flow Control
+
+Flow control is in every programming language.
+
+A quick if statement:
+
+```
+def even(n):
+  if (type(n) != int):
+    print('Only numbers please bro')
+  elif (n % 2 == 0):
+    print('Even!')
+  else:
+    print('Not even!')
+```
+
+A while loop:
+
+```
+i = 0
+
+while (i <= 20):
+  print(i)
+  i += 1 /**No use of i++?**/
+```
+
+Don't forget about break and continue!
+
+```
+i = 0
+
+while(True):
+  i += 1
+  print(i)
+  if (i == 10):
+    print("I'm a 10")
+    continue
+  print(i)
+  if (i == 20):
+    break
+```
+
+Some for loop action:
+
+```
+for i in [1,2,3,4,5,'a','b','c']:
+  print(i)
+```
+
+---
+
+# Lesson04 - Container Data Types
+
+This isn't a generic lesson.  Or is it?  Some of the containers discussed here are list, tuple, dict, set, frozenset.
+
+Starting out the containers is the list():
+
+```
+stuff = ['spam', 'eggs',5,3.2,[100,200,300]]
+```
+Containers have several methods at their disposal like append, insert, extend, remove
+
+```
+stuff.append('cherry')
+```
+
+
+
