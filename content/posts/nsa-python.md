@@ -34,142 +34,32 @@ Here's the breakdown for Week 1:
 - Lesson 10: Iterators, Generators, and Duck Typing
 - Lesson 11: String Formatting
 
-As with most Python tutorials, Week 1 begins with an introduction which calls for an installation of [Anaconda](https://www.anaconda.com/distribution/), specifically version 4.4.0.  Anaconda is one of the largest Python distributions that give you access to all the libraries, dependencies, packages, and environments that you'll need for this lesson and probably any project a beginner would be involved in.
+And the breakdown for Week 2:
 
----
+- Lesson 01: Collections and Itertools
+- Lesson 02: Command Line Arguments
+- Lesson 03: Dates and Times
+- Lesson 04: Interactive User Input with ipywidgets
+- Lesson 05: GUI basics with Tkinter
+- Lesson 06: Logging
+- Lesson 07: Math and More
+- Lesson 08: Visualization
+- Lesson 09: Pandas
+- Lesson 10: A Bit about Geos
+- Lesson 12: My First Web Application
+- Lesson 13: Network Communication Over HTTPS and Sockets (/me smiles)
+- Lesson 14: HTML Processing and BeautifulSoup
+- Lesson 15: Operations with Compression and Archives
+- Lesson 16: Regular Expressions (/me shudders)
+- Lesson 17: Hashes
+- Lesson 18: SQL and Python
+- Lesson 19: Structured Data: CSV, XML, and JSON
+- Lesson 20: System Interaction
+- Lesson 21: Threading and Subprocesses
+- Lesson 22: Machine Learning Introduction
 
-# Lesson01 - Intro
+Damn, that's a lot of great material especially week 2!
 
-So what's covered in Lesson 01?  It starts off with 'Basic Basics: Data and Operations' and explaining basic data types such as integers, floats, complexes, strings, and booleans.  We perform data operations against data types with operators, functions, and methods.
+I've been having a lot of fun in AWS lately and there is a definite need for Python there especially with automation.
 
-I like how they make a distinction between functions and methods:
-
-> Functions: operations that take one or more pieces of data as arguments e.g. `type('hello')`, `len('world')`
-> Methods: attached to a piece of data and called from it using a . to seperate the data from the method e.g. `'Hello World'.split()` or `'abc'.upper()`.
-
-In C#, it is more common to use methods for both concepts e.g. `PrintResults(result);`, `result.ToString();`.
-
-Using a split terminal in vscode you can navigate through intro stuff rather quickly.
-
-![split terminal](/images/vscode-python-split-terminal.png)
-
-Moving on we read about a few built in functions:
-
-- `help(x)`
-- `dir(x)`
-- `type(x)`
-- `print`
-- `hasattr(a,b)`
-- `getattr`
-- `id`
-- `input`
-
-Followed up with other fuctions that only work with number and string types:
-
-- `abs`, `round`, `float`, `max`, `min`, `pow`, `chr`, `divmod`
-- `<<`, `>>`, `&`, `|`, `^`, `~`
-- `len`, `min`, `max`, `ord`
-- `+`, `*`, `in`
-- `strip`, `split`, `startswith`, `upper`, `find`, `index`
-
----
-
-# Lesson02 - Variables and Functions
-
-Here come the variables!  Very useful stuff here like:
-- Finding current variables in use with `dir()`
-- Type checking with `isinstance()`
-- Conversions like `a = "3.14" b = float(a) type (b)`
-- A brief example for an array but apparently they're called containers in Python `l = ["one", "two", "three", "four"]`
-
-Where lesson02 shines is talking about making your own functions.
-
-```
-def first_func(x):
-      return x*2
-
-first_func(10)
-first_func('hello')
-```
-
-![python idle](/images/python-idle.png)
-
-Gotta love a little bit of enthusiasm here from the NSA:
-
-> Wow... Python REALLY does not care about types.  Here is the simplest function that you can write in Python (no imput, no output, and mot much else!)
-
-```
-def simple():
-      pass
-```  
-
----
-
-# Lesson03 - Flow Control
-
-Flow control is in every programming language.
-
-A quick if statement:
-
-```
-def even(n):
-  if (type(n) != int):
-    print('Only numbers please bro')
-  elif (n % 2 == 0):
-    print('Even!')
-  else:
-    print('Not even!')
-```
-
-A while loop:
-
-```
-i = 0
-
-while (i <= 20):
-  print(i)
-  i += 1 /**No use of i++?**/
-```
-
-Don't forget about break and continue!
-
-```
-i = 0
-
-while(True):
-  i += 1
-  print(i)
-  if (i == 10):
-    print("I'm a 10")
-    continue
-  print(i)
-  if (i == 20):
-    break
-```
-
-Some for loop action:
-
-```
-for i in [1,2,3,4,5,'a','b','c']:
-  print(i)
-```
-
----
-
-# Lesson04 - Container Data Types
-
-This isn't a generic lesson.  Or is it?  Some of the containers discussed here are list, tuple, dict, set, frozenset.
-
-Starting out the containers is the list():
-
-```
-stuff = ['spam', 'eggs',5,3.2,[100,200,300]]
-```
-Containers have several methods at their disposal like append, insert, extend, remove
-
-```
-stuff.append('cherry')
-```
-
-
-
+So what are you waiting for, grab that pdf and start labbing!
