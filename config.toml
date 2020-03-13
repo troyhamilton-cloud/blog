@@ -59,7 +59,7 @@ disableHugoGeneratorInject = false
   keywords = ""
   images = [""]
 
-  homeSubtitle = "# sysadmin | net.work.eng.ineer/32 | developer(ish)"
+  homeSubtitle = "# sysadmin | net.work.eng.ineer/32 | code(smasher)"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = ""
@@ -114,19 +114,19 @@ disableHugoGeneratorInject = false
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 [menu]
-  [[menu.main]]
-    identifier = "blog"
-    name       = "_blog"
-    url        = "posts/"
-  [[menu.main]]
-    identifier = "connect"
-    name       = "_connect"
-    url        = "connect/"
-  [[menu.main]]
-    identifier = "resume"
-    name       = "_resume"
-    url        = "resume/"
-  [[menu.main]]
-    identifier = "tags"
-    name       = "_tags"
-    url        = "tags/"
+  # [[menu.main]]
+  #   identifier = "blog"
+  #   name       = "_blog"
+  #   url        = "posts/"
+  # [[menu.main]]
+  #   identifier = "connect"
+  #   name       = "_connect"
+  #   url        = "connect/"
+  # [[menu.main]]
+  #   identifier = "resume"
+  #   name       = "_resume"
+  #   url        = "resume/"
+  # [[menu.main]]
+  #   identifier = "tags"
+  #   name       = "_tags"
+  #   url        = "tags/"
